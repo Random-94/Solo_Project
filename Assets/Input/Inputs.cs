@@ -42,7 +42,7 @@ public class @Inputs : IInputActionCollection, IDisposable
                 {
                     ""name"": ""up"",
                     ""id"": ""0a2442a4-cdd7-4270-820b-f37e9c56d6fc"",
-                    ""path"": ""<Keyboard>/z"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -64,7 +64,7 @@ public class @Inputs : IInputActionCollection, IDisposable
                 {
                     ""name"": ""left"",
                     ""id"": ""036690de-1c7f-43b3-98ca-24a7342a6ab0"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
