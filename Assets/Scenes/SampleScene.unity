@@ -2159,6 +2159,8 @@ MonoBehaviour:
   Speed: 20
   MaxSpeed: 25
   MyRigidbody: {fileID: 2109238991}
+  cam: {fileID: 519420031}
+  mousePos: {x: 0, y: 0}
 --- !u!50 &2109238991
 Rigidbody2D:
   serializedVersion: 4
@@ -2171,7 +2173,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.47
   m_LinearDrag: 2.14
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -2237,10 +2239,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109238989}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
