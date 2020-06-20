@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 direction;
     public Rigidbody2D MyRigidbody;
 
-    
+    public Camera cam;
+    public Vector2 mousePos;
 
     private void OnEnable()
     {
@@ -45,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-       
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
     // Update is called once per frame
@@ -60,6 +61,9 @@ public class PlayerMovement : MonoBehaviour
             MyRigidbody.AddForce(direction * Speed);
         }
 
-     
+
+        Vector2 lookDir = mousePos - MyRigidbody.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        MyRigidbody.rotation = angle;
     }
 }
